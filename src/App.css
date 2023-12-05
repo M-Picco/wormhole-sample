@@ -1,5 +1,77 @@
 .App {
   text-align: center;
+  /* background-color: #282c34; */
+  /* color: white; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.container {
+  width: 50%;
+  flex: 1;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.controls {
+  flex: 1;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.from {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.chain-select {
+  min-width: 50px;
+  flex: 1;
+}
+.sender-info {
+  margin-top: 10px;
+}
+.sender-address {
+  flex: 3;
+}
+.sender-balance {
+  flex: 1;
+}
+.asset-select {
+  flex: 2;
+  min-width: 50px;
+}
+.amount-input {
+  flex: 1;
+}
+
+.to {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.receiver-input {
+  width: 100%;
+  flex: 1;
+  flex-direction: row;
+}
+.to-chain {
+  margin-top: 5px !important;
+}
+
+.send {
+  margin-top: 5%;
+  width: 100%;
+  flex: 1;
+  flex-direction: row;
 }
 
 .App-logo {
